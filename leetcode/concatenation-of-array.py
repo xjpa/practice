@@ -1,6 +1,7 @@
 # need to create a new array that contains all elements of 
 # the original to add to new array we can append.
-# after that, then its just a matter of looping
+# after that, then its just a matter of looping twice
+# becasue the output is litearlly the array just repeated twice
 
 # time: O(n) 
 #
