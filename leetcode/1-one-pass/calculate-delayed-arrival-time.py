@@ -8,6 +8,9 @@ class Solution:
         return time
             
 
-# perhaps more cleaner is  just a one liner like
+# perhaps more cleaner is  just a one liner like:
 
-return (arrivalTime + delayedTime) % 24
+class Solution:
+    def findDelayedArrivalTime(self, arrivalTime: int, delayedTime: int) -> int:
+        return (arrivalTime + delayedTime) % 24
+
