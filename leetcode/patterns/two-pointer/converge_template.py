@@ -6,6 +6,9 @@ TEMPLATE:
 left starts at beginnig
 right starts at end
 both move to center
+
+USES:
+this is useful for when the needed information is at the edge of a sorted array/string
 """
 
 nums = [1,2,3,4,5]
@@ -19,6 +22,3 @@ while left <= right:
     else:
         right -= 1
 
-"""
-this is useful for when the needed information is at the edge of a sorted array/string
-"""
