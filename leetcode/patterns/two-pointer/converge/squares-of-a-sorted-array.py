@@ -16,8 +16,9 @@ class Solution:
         new = []
         for i in nums:
             new.append(i**2)
-        return sorted(new)
+        # squaring negatives messes up the order so we have to sort
+        return sorted(new) 
     
 """
-approach 2 is two pointer
+approach 2 without the o(nlogn) is two pointer
 """
