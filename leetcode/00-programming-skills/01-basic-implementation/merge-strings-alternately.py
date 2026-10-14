@@ -10,6 +10,7 @@ class Solution:
             # alternate to word 2
             if i < len(word2):
                 merged.append(word2[i])
+            # alternate back to word 1 in next step
         return "".join(merged)
 
 """
