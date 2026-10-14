@@ -4,8 +4,10 @@ class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
         merged = []
         for i in range(max(len(word1), len(word2))):
+            # word 1
             if i < len(word1):
                 merged.append(word1[i])
+            # alternate to word 2
             if i < len(word2):
                 merged.append(word2[i])
         return "".join(merged)
@@ -17,12 +19,17 @@ space = O(n+m) cos we store both shit
 
 my apprpach:
 
-initialize somehing for merged
-count the sum length
-loop for merging:
-    if i is still inside word1
-        append the word1[i]
-    if i is still insdie word2
-        append the word2[i]
-return the merged
+initialize an empty list called merged
+
+get the length of the longer word
+
+loop from i = 0 to longer_length - 1:
+    if i is still inside word1:
+        append word1[i] to merged
+
+    if i is still inside word2:
+        append word2[i] to merged
+
+join merged into a string
+return the string
 """
