@@ -1,0 +1,1 @@
+# https://pyvideo.org/north-bay-python-2017/loop-better-a-deeper-look-at-iteration-in-python.html

@@ -11,7 +11,9 @@ class Solution:
             if i < len(word2):
                 merged.append(word2[i])
             # alternate back to word 1 in next step
-        return "".join(merged)
+            # basically appended 2 arrays to the merged array
+        return "".join(merged) 
+    # .join() returns a string data type in python
 
 """
 time-spaccocomple:
@@ -34,3 +36,8 @@ loop from i = 0 to longer_length - 1:
 join merged into a string
 return the string
 """
+
+# alternatively
+
+class Solution:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
