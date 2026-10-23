@@ -1,4 +1,5 @@
 /*
+https://open.kattis.com/problems/aldur
 read input
 read input of loop
 figure out the minimum
